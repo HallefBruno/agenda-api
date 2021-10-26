@@ -3,7 +3,7 @@ language: java
 deploy:
   provider: heroku:git
   username: brunohallef@gmail.com
-  password: 91691692Eu
+  password: 91696192Eu
 
 #deploy:
 #  provider: heroku
