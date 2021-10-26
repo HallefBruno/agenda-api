@@ -1,1 +1,6 @@
 language: java
+
+deploy:
+  provider: heroku:git
+  api_key: 5c0a4dd5-7528-4761-b53d-fb9cb9f72bba
+  edge: true
