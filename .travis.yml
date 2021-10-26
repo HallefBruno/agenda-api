@@ -1,7 +1,8 @@
 language: java
 
 deploy:
-  provider: heroku:git
+  provider: heroku
+  app: agen-api
   username: brunohallef@gmail.com
   password: 91696192Eu
 
