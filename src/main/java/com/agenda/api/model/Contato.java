@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.validation.constraints.Email;
@@ -32,6 +33,10 @@ public class Contato implements Serializable {
     
     @Column(nullable = false)
     private Boolean favorito;
+    
+    @Lob
+    @Column
+    private byte[] foto;
     
     @PrePersist
     @PreUpdate
